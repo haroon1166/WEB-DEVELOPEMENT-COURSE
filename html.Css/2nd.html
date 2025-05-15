@@ -1,1 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Inline and Internal css</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: darkgreen;
+            text-align: center;
+            text-decoration: underline;
+        }
+        
+        .highlight {
+            background-color: yellow;
+            padding: 5px;
+            border-radius: 3px;
+        }
+        
+        #special-box {
+            width: 150px;
+            height: 150px;
+            background-color: lightblue;
+            margin: 15px auto;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+        }
+    </style>
 
+
+</head>
+<body>
+    <!-- \section{Inline CSS}                                 -->
+    <h1 style="color: blue; font-family: Arial; text-align: center;">This is a heading with inline CSS</h1>
+    <p style="background-color: lightgray; padding: 10px; border: 1px solid black;">This paragraph has inline styles applied.</p>
+    
+    <h1>This uses internal CSS</h1>
+    <p class="highlight">This paragraph has a special class applied.</p>
+    <div id="special-box"></div>
+    
+</body>
+</html>
